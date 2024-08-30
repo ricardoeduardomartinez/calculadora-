@@ -1,0 +1,23 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.caja__principal{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#div__visor{
+    display: flex;
+    background-color: aqua;
+    margin-top: 330px;
+}
+
+#text__visor{
+    display: flex;
+    margin-top: 300px;
+    background-color: aqua;
+}
