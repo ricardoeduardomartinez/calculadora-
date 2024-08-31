@@ -6,18 +6,56 @@
 
 .caja__principal{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+
+    
     
 }
 
-#div__visor{
-    display: flex;
+.text__visor{
+    display: inline-block;
+    margin-top: 50px;
     background-color: aqua;
-    margin-top: 330px;
+
 }
 
-#text__visor{
+.caja__botones{
     display: flex;
-    margin-top: 300px;
-    background-color: aqua;
+    flex-direction: row;
+
+}
+
+.teclado__numerico{
+    display: flex;
+    /*flex-direction: column-reverse;*/
+    
+
+
+}
+
+.numeral147{
+    display:flex;
+    flex-direction: column;
+}
+
+.cero258{
+    display:flex;
+    flex-direction: column;
+}
+
+.punto369{
+    display:flex;
+    flex-direction: column;
+}
+
+.btn_backSpace{
+    display:flex;
+    flex-direction: column;
+}
+
+.teclado_Operaciones{
+    display: flex;
+    flex-direction: column;
 }
